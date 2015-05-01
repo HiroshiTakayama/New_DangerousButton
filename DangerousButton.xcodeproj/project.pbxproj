@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9425BC01AF1F3B700149048 /* MyCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9425BBF1AF1F3B700149048 /* MyCoreDataStore.swift */; };
+		B992624D1AF1E27B00FDB7C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B992624C1AF1E27B00FDB7C8 /* AppDelegate.swift */; };
+		B99262501AF1E27B00FDB7C8 /* DangerousButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B992624E1AF1E27B00FDB7C8 /* DangerousButton.xcdatamodeld */; };
+		B99262521AF1E27B00FDB7C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99262511AF1E27B00FDB7C8 /* ViewController.swift */; };
+		B99262551AF1E27B00FDB7C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99262531AF1E27B00FDB7C8 /* Main.storyboard */; };
+		B99262571AF1E27B00FDB7C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99262561AF1E27B00FDB7C8 /* Images.xcassets */; };
+		B992625A1AF1E27B00FDB7C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99262581AF1E27B00FDB7C8 /* LaunchScreen.xib */; };
+		B99262661AF1E27B00FDB7C8 /* DangerousButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99262651AF1E27B00FDB7C8 /* DangerousButtonTests.swift */; };
+		B99262721AF1E31000FDB7C8 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99262711AF1E31000FDB7C8 /* AVPlayerView.swift */; };
+		B99ED38B1AF21D59002DD652 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED38A1AF21D59002DD652 /* 1.png */; };
+		B99ED38D1AF21E69002DD652 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED38C1AF21E69002DD652 /* 2.png */; };
+		B99ED39F1AF2222D002DD652 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED38E1AF2222D002DD652 /* 20.png */; };
+		B99ED3A01AF2222D002DD652 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED38F1AF2222D002DD652 /* 19.png */; };
+		B99ED3A11AF2222D002DD652 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3901AF2222D002DD652 /* 18.png */; };
+		B99ED3A21AF2222D002DD652 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3911AF2222D002DD652 /* 17.png */; };
+		B99ED3A31AF2222D002DD652 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3921AF2222D002DD652 /* 16.png */; };
+		B99ED3A41AF2222D002DD652 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3931AF2222D002DD652 /* 15.png */; };
+		B99ED3A51AF2222D002DD652 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3941AF2222D002DD652 /* 14.png */; };
+		B99ED3A61AF2222D002DD652 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3951AF2222D002DD652 /* 13.png */; };
+		B99ED3A71AF2222D002DD652 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3961AF2222D002DD652 /* 12.png */; };
+		B99ED3A81AF2222D002DD652 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3971AF2222D002DD652 /* 11.png */; };
+		B99ED3A91AF2222D002DD652 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3981AF2222D002DD652 /* 9.png */; };
+		B99ED3AA1AF2222D002DD652 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3991AF2222D002DD652 /* 8.png */; };
+		B99ED3AB1AF2222D002DD652 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED39A1AF2222D002DD652 /* 7.png */; };
+		B99ED3AC1AF2222D002DD652 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED39B1AF2222D002DD652 /* 6.png */; };
+		B99ED3AD1AF2222D002DD652 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED39C1AF2222D002DD652 /* 5.png */; };
+		B99ED3AE1AF2222D002DD652 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED39D1AF2222D002DD652 /* 4.png */; };
+		B99ED3AF1AF2222D002DD652 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED39E1AF2222D002DD652 /* 3.png */; };
+		B99ED3B11AF22769002DD652 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3B01AF22769002DD652 /* 10.png */; };
+		B99ED3B41AF242AB002DD652 /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3B21AF242AB002DD652 /* button_normal.png */; };
+		B99ED3B51AF242AB002DD652 /* button_pushed.png in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3B31AF242AB002DD652 /* button_pushed.png */; };
+		B99ED3B91AF25E06002DD652 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99ED3B81AF25E06002DD652 /* AVFoundation.framework */; };
+		B99ED3BB1AF260C7002DD652 /* switch01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B99ED3BA1AF260C7002DD652 /* switch01.mp3 */; };
+		B9AF90671AF344E100BB7D32 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AF90661AF344E100BB7D32 /* wall.png */; };
+		B9AF906F1AF3483600BB7D32 /* bakuha.mov in Resources */ = {isa = PBXBuildFile; fileRef = B9AF906E1AF3483600BB7D32 /* bakuha.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B99262601AF1E27B00FDB7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B992623F1AF1E27B00FDB7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B99262461AF1E27B00FDB7C8;
+			remoteInfo = DangerousButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9425BBF1AF1F3B700149048 /* MyCoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCoreDataStore.swift; sourceTree = "<group>"; };
+		B99262471AF1E27B00FDB7C8 /* DangerousButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DangerousButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B992624B1AF1E27B00FDB7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B992624C1AF1E27B00FDB7C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B992624F1AF1E27B00FDB7C8 /* DangerousButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DangerousButton.xcdatamodel; sourceTree = "<group>"; };
+		B99262511AF1E27B00FDB7C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B99262541AF1E27B00FDB7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B99262561AF1E27B00FDB7C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B99262591AF1E27B00FDB7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B992625F1AF1E27B00FDB7C8 /* DangerousButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DangerousButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99262641AF1E27B00FDB7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99262651AF1E27B00FDB7C8 /* DangerousButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousButtonTests.swift; sourceTree = "<group>"; };
+		B99262711AF1E31000FDB7C8 /* AVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		B99ED38A1AF21D59002DD652 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B99ED38C1AF21E69002DD652 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B99ED38E1AF2222D002DD652 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		B99ED38F1AF2222D002DD652 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		B99ED3901AF2222D002DD652 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		B99ED3911AF2222D002DD652 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		B99ED3921AF2222D002DD652 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		B99ED3931AF2222D002DD652 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		B99ED3941AF2222D002DD652 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		B99ED3951AF2222D002DD652 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		B99ED3961AF2222D002DD652 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		B99ED3971AF2222D002DD652 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		B99ED3981AF2222D002DD652 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		B99ED3991AF2222D002DD652 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		B99ED39A1AF2222D002DD652 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		B99ED39B1AF2222D002DD652 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		B99ED39C1AF2222D002DD652 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		B99ED39D1AF2222D002DD652 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		B99ED39E1AF2222D002DD652 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		B99ED3B01AF22769002DD652 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		B99ED3B21AF242AB002DD652 /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
+		B99ED3B31AF242AB002DD652 /* button_pushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pushed.png; sourceTree = "<group>"; };
+		B99ED3B61AF25C68002DD652 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B99ED3B81AF25E06002DD652 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B99ED3BA1AF260C7002DD652 /* switch01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = switch01.mp3; path = ../../../Downloads/switch01.mp3; sourceTree = "<group>"; };
+		B9AF90661AF344E100BB7D32 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		B9AF906E1AF3483600BB7D32 /* bakuha.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bakuha.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B99262441AF1E27B00FDB7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99ED3B91AF25E06002DD652 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B992625C1AF1E27B00FDB7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B992623E1AF1E27B00FDB7C8 = {
+			isa = PBXGroup;
+			children = (
+				B99ED3B81AF25E06002DD652 /* AVFoundation.framework */,
+				B99ED3B61AF25C68002DD652 /* AudioToolbox.framework */,
+				B9425BBF1AF1F3B700149048 /* MyCoreDataStore.swift */,
+				B99262491AF1E27B00FDB7C8 /* DangerousButton */,
+				B99262621AF1E27B00FDB7C8 /* DangerousButtonTests */,
+				B99262481AF1E27B00FDB7C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B99262481AF1E27B00FDB7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B99262471AF1E27B00FDB7C8 /* DangerousButton.app */,
+				B992625F1AF1E27B00FDB7C8 /* DangerousButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B99262491AF1E27B00FDB7C8 /* DangerousButton */ = {
+			isa = PBXGroup;
+			children = (
+				B992624C1AF1E27B00FDB7C8 /* AppDelegate.swift */,
+				B99262511AF1E27B00FDB7C8 /* ViewController.swift */,
+				B99262711AF1E31000FDB7C8 /* AVPlayerView.swift */,
+				B99262531AF1E27B00FDB7C8 /* Main.storyboard */,
+				B99262561AF1E27B00FDB7C8 /* Images.xcassets */,
+				B99ED3B21AF242AB002DD652 /* button_normal.png */,
+				B99ED3B31AF242AB002DD652 /* button_pushed.png */,
+				B9AF90661AF344E100BB7D32 /* wall.png */,
+				B99ED38A1AF21D59002DD652 /* 1.png */,
+				B99ED38C1AF21E69002DD652 /* 2.png */,
+				B99ED38E1AF2222D002DD652 /* 20.png */,
+				B99ED38F1AF2222D002DD652 /* 19.png */,
+				B99ED3901AF2222D002DD652 /* 18.png */,
+				B99ED3911AF2222D002DD652 /* 17.png */,
+				B99ED3921AF2222D002DD652 /* 16.png */,
+				B99ED3931AF2222D002DD652 /* 15.png */,
+				B99ED3941AF2222D002DD652 /* 14.png */,
+				B99ED3951AF2222D002DD652 /* 13.png */,
+				B99ED3961AF2222D002DD652 /* 12.png */,
+				B99ED3971AF2222D002DD652 /* 11.png */,
+				B99ED3B01AF22769002DD652 /* 10.png */,
+				B99ED3981AF2222D002DD652 /* 9.png */,
+				B99ED3991AF2222D002DD652 /* 8.png */,
+				B99ED39A1AF2222D002DD652 /* 7.png */,
+				B99ED39B1AF2222D002DD652 /* 6.png */,
+				B99ED39C1AF2222D002DD652 /* 5.png */,
+				B99ED39D1AF2222D002DD652 /* 4.png */,
+				B99ED39E1AF2222D002DD652 /* 3.png */,
+				B9AF906E1AF3483600BB7D32 /* bakuha.mov */,
+				B99ED3BA1AF260C7002DD652 /* switch01.mp3 */,
+				B99262581AF1E27B00FDB7C8 /* LaunchScreen.xib */,
+				B992624E1AF1E27B00FDB7C8 /* DangerousButton.xcdatamodeld */,
+				B992624A1AF1E27B00FDB7C8 /* Supporting Files */,
+			);
+			path = DangerousButton;
+			sourceTree = "<group>";
+		};
+		B992624A1AF1E27B00FDB7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B992624B1AF1E27B00FDB7C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99262621AF1E27B00FDB7C8 /* DangerousButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B99262651AF1E27B00FDB7C8 /* DangerousButtonTests.swift */,
+				B99262631AF1E27B00FDB7C8 /* Supporting Files */,
+			);
+			path = DangerousButtonTests;
+			sourceTree = "<group>";
+		};
+		B99262631AF1E27B00FDB7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99262641AF1E27B00FDB7C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B99262461AF1E27B00FDB7C8 /* DangerousButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99262691AF1E27B00FDB7C8 /* Build configuration list for PBXNativeTarget "DangerousButton" */;
+			buildPhases = (
+				B99262431AF1E27B00FDB7C8 /* Sources */,
+				B99262441AF1E27B00FDB7C8 /* Frameworks */,
+				B99262451AF1E27B00FDB7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DangerousButton;
+			productName = DangerousButton;
+			productReference = B99262471AF1E27B00FDB7C8 /* DangerousButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B992625E1AF1E27B00FDB7C8 /* DangerousButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B992626C1AF1E27B00FDB7C8 /* Build configuration list for PBXNativeTarget "DangerousButtonTests" */;
+			buildPhases = (
+				B992625B1AF1E27B00FDB7C8 /* Sources */,
+				B992625C1AF1E27B00FDB7C8 /* Frameworks */,
+				B992625D1AF1E27B00FDB7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99262611AF1E27B00FDB7C8 /* PBXTargetDependency */,
+			);
+			name = DangerousButtonTests;
+			productName = DangerousButtonTests;
+			productReference = B992625F1AF1E27B00FDB7C8 /* DangerousButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B992623F1AF1E27B00FDB7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = InternetCreative;
+				TargetAttributes = {
+					B99262461AF1E27B00FDB7C8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B992625E1AF1E27B00FDB7C8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B99262461AF1E27B00FDB7C8;
+					};
+				};
+			};
+			buildConfigurationList = B99262421AF1E27B00FDB7C8 /* Build configuration list for PBXProject "DangerousButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B992623E1AF1E27B00FDB7C8;
+			productRefGroup = B99262481AF1E27B00FDB7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B99262461AF1E27B00FDB7C8 /* DangerousButton */,
+				B992625E1AF1E27B00FDB7C8 /* DangerousButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B99262451AF1E27B00FDB7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99ED3AE1AF2222D002DD652 /* 4.png in Resources */,
+				B99ED3BB1AF260C7002DD652 /* switch01.mp3 in Resources */,
+				B99ED3A71AF2222D002DD652 /* 12.png in Resources */,
+				B99ED3B11AF22769002DD652 /* 10.png in Resources */,
+				B99ED3A51AF2222D002DD652 /* 14.png in Resources */,
+				B99ED3B51AF242AB002DD652 /* button_pushed.png in Resources */,
+				B99ED39F1AF2222D002DD652 /* 20.png in Resources */,
+				B99ED38D1AF21E69002DD652 /* 2.png in Resources */,
+				B99262551AF1E27B00FDB7C8 /* Main.storyboard in Resources */,
+				B99ED3A41AF2222D002DD652 /* 15.png in Resources */,
+				B99ED3AA1AF2222D002DD652 /* 8.png in Resources */,
+				B99ED3A01AF2222D002DD652 /* 19.png in Resources */,
+				B992625A1AF1E27B00FDB7C8 /* LaunchScreen.xib in Resources */,
+				B99ED3A21AF2222D002DD652 /* 17.png in Resources */,
+				B99ED3AF1AF2222D002DD652 /* 3.png in Resources */,
+				B99ED3A91AF2222D002DD652 /* 9.png in Resources */,
+				B99ED38B1AF21D59002DD652 /* 1.png in Resources */,
+				B99ED3A31AF2222D002DD652 /* 16.png in Resources */,
+				B99ED3A81AF2222D002DD652 /* 11.png in Resources */,
+				B99ED3B41AF242AB002DD652 /* button_normal.png in Resources */,
+				B99ED3AC1AF2222D002DD652 /* 6.png in Resources */,
+				B99ED3A11AF2222D002DD652 /* 18.png in Resources */,
+				B9AF906F1AF3483600BB7D32 /* bakuha.mov in Resources */,
+				B99262571AF1E27B00FDB7C8 /* Images.xcassets in Resources */,
+				B99ED3AD1AF2222D002DD652 /* 5.png in Resources */,
+				B99ED3A61AF2222D002DD652 /* 13.png in Resources */,
+				B99ED3AB1AF2222D002DD652 /* 7.png in Resources */,
+				B9AF90671AF344E100BB7D32 /* wall.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B992625D1AF1E27B00FDB7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B99262431AF1E27B00FDB7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99262721AF1E31000FDB7C8 /* AVPlayerView.swift in Sources */,
+				B99262521AF1E27B00FDB7C8 /* ViewController.swift in Sources */,
+				B99262501AF1E27B00FDB7C8 /* DangerousButton.xcdatamodeld in Sources */,
+				B992624D1AF1E27B00FDB7C8 /* AppDelegate.swift in Sources */,
+				B9425BC01AF1F3B700149048 /* MyCoreDataStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B992625B1AF1E27B00FDB7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99262661AF1E27B00FDB7C8 /* DangerousButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B99262611AF1E27B00FDB7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B99262461AF1E27B00FDB7C8 /* DangerousButton */;
+			targetProxy = B99262601AF1E27B00FDB7C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B99262531AF1E27B00FDB7C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99262541AF1E27B00FDB7C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B99262581AF1E27B00FDB7C8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99262591AF1E27B00FDB7C8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B99262671AF1E27B00FDB7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B99262681AF1E27B00FDB7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B992626A1AF1E27B00FDB7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DangerousButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B992626B1AF1E27B00FDB7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DangerousButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B992626D1AF1E27B00FDB7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DangerousButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DangerousButton.app/DangerousButton";
+			};
+			name = Debug;
+		};
+		B992626E1AF1E27B00FDB7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DangerousButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DangerousButton.app/DangerousButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B99262421AF1E27B00FDB7C8 /* Build configuration list for PBXProject "DangerousButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99262671AF1E27B00FDB7C8 /* Debug */,
+				B99262681AF1E27B00FDB7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99262691AF1E27B00FDB7C8 /* Build configuration list for PBXNativeTarget "DangerousButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B992626A1AF1E27B00FDB7C8 /* Debug */,
+				B992626B1AF1E27B00FDB7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B992626C1AF1E27B00FDB7C8 /* Build configuration list for PBXNativeTarget "DangerousButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B992626D1AF1E27B00FDB7C8 /* Debug */,
+				B992626E1AF1E27B00FDB7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B992624E1AF1E27B00FDB7C8 /* DangerousButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B992624F1AF1E27B00FDB7C8 /* DangerousButton.xcdatamodel */,
+			);
+			currentVersion = B992624F1AF1E27B00FDB7C8 /* DangerousButton.xcdatamodel */;
+			path = DangerousButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B992623F1AF1E27B00FDB7C8 /* Project object */;
+}
